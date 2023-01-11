@@ -1,0 +1,6 @@
+<div id="fakeBody">
+    <i (click)="clickEvent()" [ngClass]="status ? 'bi bi-x mobile-nav-toggle d-xl-none' : 'bi bi-list mobile-nav-toggle d-xl-none'" id="toggler"></i>
+    <app-header [ngClass]="status ? '' : 'goLeft'"></app-header>
+    <app-banner></app-banner>
+    <app-main></app-main>
+</div>
