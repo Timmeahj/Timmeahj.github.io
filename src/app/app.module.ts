@@ -13,6 +13,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactComponent } from './contact/contact.component';
 import { InterestsComponent } from './interests/interests.component';
+import { CopyrightComponent } from './copyright/copyright.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { InterestsComponent } from './interests/interests.component';
     TestimonialsComponent,
     ContactComponent,
     InterestsComponent,
+    CopyrightComponent,
   ],
   imports: [
     BrowserModule
